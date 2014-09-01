@@ -20,6 +20,7 @@ Setup
 How to use
 ----------
 Standard Razor rules apply. No C# necesary, but any C# that you can fit in a .cshtml is valid ,like
+    
     @{ string myString = "hello";}
     @myString
 
