@@ -1,0 +1,18 @@
+﻿@model Stamp.Controllers.HomeController.PageListModel
+
+@if (Model.Pages.Any()){
+    <h2>
+        Pages found :
+    </h2>
+    
+    foreach (string page in Model.Pages)
+    {
+        <div>
+            <a href="home/page?page=@(page)">@(page)</a>
+        </div>
+    }
+} else {
+    <div>
+        No pages found. Add one to /Views/Pages.
+    </div>
+}

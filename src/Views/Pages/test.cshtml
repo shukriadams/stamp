@@ -1,0 +1,18 @@
+﻿@{ Layout = "~/Views/Themes/theme.cshtml"; }
+@{
+	string aString = "I am a test string";
+	int anInt = 1+1;
+}
+
+@section home{
+    @Html.Partial("~/Views/Parts/part.cshtml")
+
+	<br />
+    This is a test page;
+
+    @aString
+    <br />
+    @anInt
+}
+
+
