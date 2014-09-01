@@ -24,15 +24,15 @@ Standard Razor rules apply. No C# necesary, but any C# that you can fit in a .cs
     @{ string myString = "hello";}
     @myString
 
-Create parts and themes anywhere in /views/, point to them as you would normally.
+Create parts and themes anywhere in /views/, point to them as you would normally. Use any text editor, refresh browser to view changes. 
 
 How not to use
 --------------
-Leave /views/home and /controllers/homecontroller.cs alone. These belong to Stamp, and will hopefully be updated without warning.
+Leave /views/home and /controllers/homecontroller.cs alone. These belong to Stamp, and will hopefully be updated by Stamp at some point.
 
 Why?
 ----
-When you're prototyping a complex "frontendy" page, your focus is on HTML, CSS and Javascript. The only backend stuff you want is server-side rendering of HTML, and reuse of either base templates or parts. Maybe a tiny bit of logic. You don't need heavy backend coding or even a heavy backend IDE.
+So you can prototype a complex "frontendy" site focusing on HTML, CSS and Javascript. The only backend stuff you need is server-side rendering of HTML, and reuse of either base templates or parts. Maybe a tiny bit of logic. No heavy backend coding or IDE needed.
 
 Credits
 -------
