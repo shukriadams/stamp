@@ -6,3 +6,4 @@
 /src/aspnet_client
 /src/Stamp.userprefs
 /build
+/src/*.suo
