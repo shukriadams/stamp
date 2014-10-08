@@ -1,0 +1,13 @@
+﻿@{ Layout = "~/Views/Themes/example.cshtml"; }
+
+@section home {
+    <div>
+        A simple partial :
+        @Html.Partial("~/Views/Parts/examples/simple.cshtml")
+    </div>
+    <div>
+        A partial with data :
+        @Html.Partial("~/Views/Parts/examples/data.cshtml", new { name = "bob"})
+    </div>
+}
+

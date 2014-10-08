@@ -3,24 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Web.Mvc;
 
-namespace Stamp.Controllers
+namespace Stamp
 {
     public class HomeController : Controller
     {
-        #region MODELS
-
-        public class PageViewModel
-        {
-            public string Page { get; set; }
-        }
-
-        public class PageListModel 
-        {
-            public IEnumerable<string> Pages { get; set; }
-        }
-
-        #endregion
-
         #region Actions
 
         /// <summary>
